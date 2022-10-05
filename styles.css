@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background-color: lightgrey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header, .card {
+    background-color: white;
+}
+header {
+    padding: 0.5em;
+}
+main {
+    padding: 0.1em 0;
+}
+h1 {
+    margin: 0 auto;
+    max-width: 500px;
+}
+.card {
+    max-width: 500px;
+    margin: 3em auto;
+    font-size: 0.8rem;
+}
+.card-header {
+    padding: 1.2em 0.8em;
+}
+.card-title {
+    font-weight: bold;
+}
+.card-number {
+    float: right;
+    color: grey;
+}
+img {
+    max-width: 100%;
+}
+.card-footer {
+    padding: 1.5em;
+}
